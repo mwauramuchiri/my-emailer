@@ -1,0 +1,63 @@
+{
+  "name": "app",
+  "version": "0.1.4",
+  "description": "desktop pwa for sending designed html emails",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint",
+    "vue-ui": "vue ui"
+  },
+  "dependencies": {
+    "@mailupinc/bee-plugin": "^1.0.2",
+    "axios": "^0.19.0",
+    "bee-plugin": "^1.0.2",
+    "core-js": "^3.44.0",
+    "lodash": "^4.17.15",
+    "register-service-worker": "^1.6.2",
+    "socket.io": "^2.3.0",
+    "toastify-js": "^1.6.1",
+    "vue": "^2.6.10",
+    "vue-material-checkbox": "^2.1.0",
+    "vue-socket.io": "^3.0.7",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.19",
+    "@vue/cli-plugin-eslint": "^4.5.19",
+    "@vue/cli-service": "^4.5.19",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.1",
+    "dotenv-expand": "^10.0.0",
+    "dotenv-webpack": "^8.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-env-run": "^4.0.2",
+    "prettier": "^1.18.2",
+    "sass": "^1.70.0",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "@vue/prettier"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
